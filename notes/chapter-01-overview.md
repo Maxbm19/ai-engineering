@@ -76,4 +76,25 @@ masked language models.
 
 *lef in page 6*
 
+## Self-supervision
 
+The answer is that language models can be trained using self-supervision, while many
+other models require supervision. Supervision refers to the process of training ML
+algorithms using labeled data, which can be expensive and slow to obtain. Self-
+supervision helps overcome this data labeling bottleneck to create larger datasets for
+models to learn from, effectively allowing models to scale up. Here’s how.
+
+Self-supervision helps overcome the data labeling bottleneck. In self-supervision,
+instead of requiring explicit labels, the model can infer labels from the input data.
+Language modeling is self-supervised because each input sequence provides both the
+labels (tokens to be predicted) and the contexts the model can use to predict these
+labels. For example, the sentence “I love street food.” gives six training samples, as
+shown in Table 1-1.
+
+![alt text](image.png)
+
+*Max's note*
+so what it means is that in supervises machine learning you label the data but language models are self supervised because the training data are the previos tokes and the (target) are the next tokens
+*End Max's note*
+
+## From Large Languages Models to Foundation Models
