@@ -10,7 +10,7 @@ of building applications on top of readily available models—into one of the fa
 growing engineering disciplines.
 ## The rise of AI engineering
 
-### Language models
+#### Language models
 
 A language model encodes statistical information about one or more languages. Intui‐
 tively, this information tells us how likely a word is to appear in a given context. For
@@ -76,7 +76,7 @@ masked language models.
 
 *lef in page 6*
 
-## Self-supervision
+##### Self-supervision
 
 The answer is that language models can be trained using self-supervision, while many
 other models require supervision. Supervision refers to the process of training ML
@@ -97,4 +97,26 @@ shown in Table 1-1.
 so what it means is that in supervises machine learning you label the data but language models are self supervised because the training data are the previos tokes and the (target) are the next tokens
 *End Max's note*
 
-## From Large Languages Models to Foundation Models
+### From Large Languages Models to Foundation Models
+
+* Now many model incorporate more data modalities, GPT-4V and Claude 3 cand undestand images and texts. *
+
+While many people still call Gemini and GPT-4V LLMs, they're brtter characterized as foundation models. Ther word foundation sinifies both the importance of these models in AI applicatrions and the fact that they can be builkt upon for different needs.
+
+Foundation models mark a brekthrough from the tradfitrion structure of AI research.
+
+A model that can work with more than one data modality is also called a multimodal model. A generative multimodal is also called a large multimodal model (LMM)
+
+* Self supervised works also for multimodal models too Open AI for the model CLIP, instead of manually generating labels were able to generate a dataset of 400 million (image, text) without labeling cost.
+
+[[prompt engineering]], [[RAG]] and [[finetuning]] are three very common AI engineering techniques that you can use to adapt a model to your needs
+
+Adapting an existing powerful model to your task is generally a lot easier than building a model for your task from scracth
+
+### From Foundation models to AI Engineering
+
+AI engineering refers to the process of building application on top of foudation models.
+
+If traditional ML engineering involves developing ML models, AI engineering leverages existing ones.
+
+Because of the resources it takes to develop foundation models, this process is possible only for big corportates, goverments and ambitios, well-founded starups
